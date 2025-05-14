@@ -1,0 +1,15 @@
+.principal{
+    height: 600px;
+    background: aquamarine;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    height: 100px;
+    width: 100px;
+    background: white;
+    margin: 20px;
+    border: 1px dashed #000;
+}
