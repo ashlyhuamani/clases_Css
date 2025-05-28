@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 90vh; 
+    width: 95vw; 
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 21, 118);
+    border-radius: 50%;
+    animation: bounce 2s ease-in-out infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    70% {
+      transform: translateY(-100px); 
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
